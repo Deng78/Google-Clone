@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Google - Results</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="simple-grid.min.css">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="bttn.min.css">
+<link rel="stylesheet" href="animate.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <a href="index.html"><img src="logo.png" alt="Google Logo" id="resultsLogo"></a>
+            </div>
+            <div class="col-7">
+                <input type="text" placeholder="" id="search">
+            </div>
+            <div class="col-3">
+                <button class="bttn-unite bttn-sm bttn-primary" id="searchBtn">Google Search</button>                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" id="searchResults">
+            <!--<div class="col-12">
+                <h4><a href="http://www.facebook.com">Facebook - Login | Signup </a></h4>
+                <a>www.facebook.com</a>
+                <p>Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.</p>
+            </div> -->
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        getResults();
+    </script>
+</body>
+</html>
